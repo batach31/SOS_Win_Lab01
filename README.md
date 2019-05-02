@@ -10,5 +10,8 @@ propre au domain controler.
 
 P3: ip vulnérable: 172.22.4.6
 	On obtient les droits d'exécution SYSTEM
-P4: 
-P5: 
+P4: La faille MS17-010 permet à l'attaquant d'exécuter n'importe quelle commande et donc, d'avoir les privilèges system.
+P5: 188 powershell.exe (grâce aux commandes getpid et ps dans le meterpreter)
+P6: Un reverse shell fait en sorte que la victime vienne se connecter à un port définit par l'attaquant (sur sa machine) alors qu'un bind shell consiste à ouvrir un port sur la machine de la victime et à s'y connecter.
+P7: Il est recommandé d'utiliser un reverse shell lorsqu'il y a un firewall protegeant la victime (qui risquerait d'empecher un bind)
+P8: 
