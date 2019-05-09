@@ -14,4 +14,5 @@ P4: La faille MS17-010 permet à l'attaquant d'exécuter n'importe quelle comman
 P5: 188 powershell.exe (grâce aux commandes getpid et ps dans le meterpreter)
 P6: Un reverse shell fait en sorte que la victime vienne se connecter à un port définit par l'attaquant (sur sa machine) alors qu'un bind shell consiste à ouvrir un port sur la machine de la victime et à s'y connecter.
 P7: Il est recommandé d'utiliser un reverse shell lorsqu'il y a un firewall protegeant la victime (qui risquerait d'empecher un bind)
-P8: 
+P8: Il s'agit de composants payload (comme Meterpreter dans notre cas) qui sont téléchargés depuis un Stager.
+	Les Stagers permettant eux de créer une connection entre l'attaquant et la victime.
