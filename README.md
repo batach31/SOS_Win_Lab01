@@ -39,3 +39,5 @@ P28	: On reçoit un system error comme quoi on n'est pas log avec un utilisateur
 P29	: La seconde fois le système nous le permet. En forgeant le golden_ticket, on a accès aux droits de tous les utilisateurs,
 y compris celui du Domain Admin, ce qui nous donne le droit de faire ce qu'on veut sur cette machine, y compris monter un partage.
 P30	: 
+P31	: Il peut être valide pendant plusieurs années
+P32	: 
